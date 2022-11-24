@@ -1,0 +1,15 @@
+Problem
+Given a collection of DNA strings representing contigs, we use the N statistic NXX (where XX ranges from 01 to 99) to represent the maximum positive integer L such that the total number of nucleotides of all contigs having length ≥L is at least XX% of the sum of contig lengths. The most commonly used such statistic is N50, although N75 is also worth mentioning.
+
+Given: A collection of at most 1000 DNA strings (whose combined length does not exceed 50 kbp).
+
+Return: N50 and N75 for this collection of strings.
+
+Sample Dataset
+GATTACA
+TACTACTAC
+ATTGAT
+GAAGA
+
+Sample Output
+7 6
