@@ -9,7 +9,7 @@ myhandle = open(mydir + "/gbk_dataset.txt")                  #full infile direct
 
 
 
-Entrez.email = "apatel72@luc.edu"
+Entrez.email = "enter your email"
 
 
 def genus_enteries(handle):
